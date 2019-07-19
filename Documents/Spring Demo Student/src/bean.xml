@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="student" class="com.spring.stackroute.Student">
+
+
+        <property name="name" value="Sidrah"></property>
+        <!--        setter injection-->
+        <property name="id" value="101"></property>
+
+    </bean>
+
+    <bean id="student1" class="com.spring.stackroute.Student">
+
+        <constructor-arg name="name" value="Nagma"  type="String"></constructor-arg>
+        <constructor-arg name="id" value="102" type="int"></constructor-arg>
+
+
+
+    </bean>
+    <!--    <bean id="VodafoneId" class="package com.spring.stackroute.Vodafone"></bean>-->
+
+</beans>

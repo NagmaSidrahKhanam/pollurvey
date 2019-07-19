@@ -1,0 +1,35 @@
+<html>
+<head>
+<title> LIST</title>
+</head>
+
+<body>
+<dd>dd dd dd</dd>
+<dt>dt  dt </dt>
+
+<li>
+list
+</li>
+<li>
+324324324
+</li>
+
+<ol>
+ordered list
+</ol>
+<ol>
+12121212
+</ol>
+
+<ul>
+unordered list
+</ul>
+<ul>
+4323424
+</ul>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,289 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@NagmaSidrahKhanam 
+0
+0 0 Shubhi-J/BootstrapAssignment20190621
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Security  Insights
+BootstrapAssignment20190621/index.html
+@Shubhi-J Shubhi-J bootstrap assignment
+edf8104 12 hours ago
+263 lines (244 sloc)  11.8 KB
+  
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--for google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+    <!-- add custom js -->
+    <!-- <script src="js/custom.js"></script> -->
+    <!-- for favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+    <title>IBM</title>
+</head>
+<!--head section close-->
+
+<body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="images/IbmLogo.png" alt="IBM Logo" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Developers
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">developerWorks (IN)</a>
+                        <a class="dropdown-item" href="#">developerWorks (US)</a>
+                        <a class="dropdown-item" href="#">partnerWorks (US)</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!--Navigation close -->
+
+    <hr>
+
+    <!-- carousel part -->
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/slide11.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/slide111.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/slide333.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--carousel close-->
+
+    <hr>
+
+    <!-- jumbotron section -->
+    <section class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-6">Call for code</h1>
+            <p class="lead">2019 Global Challenge</p>
+            <p class="text">
+                The Call for Code 2019 Global Challenge is a worldwide developer competition that seeks
+                solutions for natural disaster preparedness, response, and recovery.
+            </p>
+            <a href="#" id="jumbotronBtn1" class="btn btn-primary" data-toggle="modal" data-target="#callModal">Accept
+                the call for Challenge</a>
+            <a href="#" id="jumbotronBtn2" class="btn btn-link">Subscribe to the newsletter</a>
+        </div>
+    </section>
+    <!--jumbotron close-->
+
+    <!-- modal for accept call-->
+    <modal id="callModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Please fill the details</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!--modal header closed-->
+                <div class="modal-body">
+                    <form id="callForm">
+                        <div class="form-group">
+                            <label for="#name" class="control-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Name" />
+                        </div>
+                        <!--name input closed-->
+                        <div class="form-group">
+                            <label for="#email" class="control-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Email" />
+                        </div>
+                        <!--email input closed-->
+                        <div class="form-group">
+                            <label for="#phone" class="control-label">Phone</label>
+                            <input type="number" class="form-control" placeholder="Phone" />
+                        </div>
+                        <!--phone input closed-->
+                    </form>
+                </div>
+                <!--modal body closed-->
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <button class="btn btn-secondary">Done</button>
+                </div>
+                <!--modal footer closed-->
+            </div>
+            <!--modal content div closed-->
+        </div>
+        <!--modal dialog div closed-->
+    </modal>
+
+    <hr>
+
+    <!-- Inside IBM section -->
+    <section class="container-fluid features">
+        <h3>Inside IBM</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <p>Journey to Cloud</p>
+                <img src="images/cloud.jpg" alt="journey to cloud">
+                <p>Learn where you are on your journey to cloud and determine your next step</p>
+            </div>
+            <!--first grid close-->
+            <div class="col-md-4">
+                <p>Expect more flexibility</p>
+                <img src="images/flexibility.jpg" alt="more flexibility">
+                <p>Explore a faster, more secure journey to cloud</p>
+            </div>
+            <!--second grid close-->
+            <div class="col-md-4">
+                <p>Listen: Devices are talking</p>
+                <img src="images/devices.jpg" alt="devices">
+                <p>The value of data is in its utility, explore how clients leverage Internet of Things with Watson</p>
+            </div>
+            <!--third grid close-->
+        </div>
+        <!--grid row closed-->
+    </section>
+    <!--Inside ibm scetion close-->
+
+    <hr>
+
+    <!-- Nav tabs -->
+
+    <section class="container tabs row col-12">
+        <!-- video Section -->
+        <div class="tab-content col-6 pull-left">
+
+            <ul class="nav nav-pills" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#video1" role="tab" data-toggle="tab">Quantum Computing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#video2" role="tab" data-toggle="tab">Watson</a>
+                </li>
+            </ul>
+            <!-- Tab panes -->
+
+            <div role="tabpanel" class="tab-pane active embed-responsive embed-responsive-16by9" id="video1" class="">
+                <iframe src="https://www.youtube.com/embed/yy6TV9Dntlw"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <!--video 1 div closed-->
+            <div role="tabpanel" class="tab-pane fade embed-responsive embed-responsive-16by9" id="video2" class="">
+                <iframe src="https://www.youtube.com/embed/8o44asJt8ZA"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen">
+                </iframe>
+            </div>
+            <!--video 2 div closed-->
+        </div>
+        <!--tabs div closed-->
+        <div class="container col-6 pull-right">
+            <h3 class="mapHeading">Find us on maps</h3>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.8063642020884!2d77.6196715504535!3d13
+            .04799411668247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17657ecc87e5%3A0x261f1328b05d44bb!2sIBM
+            +G2+Block!5e0!3m2!1sen!2sin!4v1561115716030!5m2!1sen!2sin" style="border:0">
+                </iframe>
+            </div>
+            <!--maps div closed-->
+        </div>
+    </section>
+    <hr>
+    <!-- Footer Section -->
+    <footer class="container col-12">
+        <div class="row">
+            <aside class="col-6 pull-left">
+                <p>Copyright &copy; IBM India pvt ltd</p>
+                <p>Contact information:
+                    info@ibm.com</p>
+            </aside>
+            <aside class="col-6 pull-right icons">
+                <p><a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-instagram"></a></p>
+                <!--icons closed-->
+                <p><a href="#">Terms of use / </a>
+                    <a href="#">Privacy policy</a></p>
+            </aside>
+        </div>
+    </footer>
+</body>
+</html>
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

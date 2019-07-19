@@ -1,0 +1,33 @@
+.wrap{
+    width: 600px;
+    margin: auto;
+    background-color: rgb(192, 192, 192);
+
+}
+.content, aside{
+    height: 400px;
+}
+.content{
+background: yellow;
+float: left;
+width: 60%;
+}
+aside{
+    background: yellowgreen;
+    float: left;
+    width: 40%;
+
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+ul a{
+    width: 150px;
+    text-decoration: none;
+color: red;
+}
+ul a:hover {
+ text-decoration: underline;   
+ color: black;
+}

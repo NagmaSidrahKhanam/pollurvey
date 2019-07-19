@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>hyperlinks</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+
+<a href="file:///home/nagma/Desktop/lists"  style="color: red"> click here</a>
+<br>
+<a href="file:///home/nagma/Desktop/Untitled-1" > click here...</a>
+
+<a href="file:///home/nagma/Desktop/lists" > click this link</a>
+
+</body>
+</html>

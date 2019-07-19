@@ -1,0 +1,6 @@
+span
+{
+    margin :auto;
+    align: center;
+    border-color:white;
+}
